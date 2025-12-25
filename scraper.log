@@ -1,0 +1,737 @@
+2025-12-23 09:55:55,621 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 09:55:55,621 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 09:55:56,853 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 09:55:57,194 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 09:55:57,381 - WDM - INFO - There is no [win64] chromedriver "143.0.7499.169" for browser google-chrome "143.0.7499" in cache
+2025-12-23 09:55:57,381 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 09:55:57,832 - WDM - INFO - WebDriver version 143.0.7499.169 selected
+2025-12-23 09:55:57,835 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/win32/chromedriver-win32.zip
+2025-12-23 09:55:57,835 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.169/win32/chromedriver-win32.zip
+2025-12-23 09:55:58,817 - WDM - INFO - Driver downloading response is 200
+2025-12-23 09:56:02,035 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 09:56:02,456 - WDM - INFO - Driver has been saved in cache [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169]
+2025-12-23 09:56:05,264 - Main - INFO - Starting scrape process...
+2025-12-23 09:56:05,264 - Main - INFO - Processing (1/10): https://en.wikipedia.org/wiki/Selenium_(software)
+2025-12-23 09:56:05,264 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Selenium_(software)
+2025-12-23 09:56:07,796 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Selenium_(software)...
+2025-12-23 09:56:09,851 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 09:56:09,851 - Main - INFO - Summary generated.
+2025-12-23 09:56:09,857 - Main - INFO - Processing (2/10): https://en.wikipedia.org/wiki/Microsoft_Windows
+2025-12-23 09:56:09,859 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Microsoft_Windows
+2025-12-23 09:56:11,887 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Microsoft_Windows...
+2025-12-23 09:56:13,961 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 09:56:13,962 - Main - INFO - Summary generated.
+2025-12-23 09:56:14,015 - Main - INFO - Processing (3/10): https://en.wikipedia.org/wiki/Internet_Explorer
+2025-12-23 09:56:14,015 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Internet_Explorer
+2025-12-23 09:56:15,819 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Internet_Explorer...
+2025-12-23 09:56:17,879 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 09:56:17,879 - Main - INFO - Summary generated.
+2025-12-23 09:56:17,935 - Main - INFO - Processing (4/10): https://en.wikipedia.org/wiki/Wikipedia:Verifiability
+2025-12-23 09:56:17,935 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Wikipedia:Verifiability
+2025-12-23 09:56:19,485 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Wikipedia:Verifiability...
+2025-12-23 09:56:21,523 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 09:56:21,523 - Main - INFO - Summary generated.
+2025-12-23 09:56:21,530 - Main - INFO - Processing (5/10): https://en.wikipedia.org/wiki/Perl
+2025-12-23 09:56:21,530 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Perl
+2025-12-23 09:56:23,634 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Perl...
+2025-12-23 09:56:25,681 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 09:56:25,682 - Main - INFO - Summary generated.
+2025-12-23 09:56:25,702 - Main - INFO - Processing (6/10): https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software
+2025-12-23 09:56:25,702 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software
+2025-12-23 09:56:31,046 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Portal:Free_and_open-source_software...
+2025-12-23 09:56:33,086 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 09:56:33,086 - Main - INFO - Summary generated.
+2025-12-23 09:56:33,134 - Main - INFO - Processing (7/10): https://en.wikipedia.org/wiki/Category:Articles_with_minor_POV_problems_from_March_2023
+2025-12-23 09:56:33,134 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Category:Articles_with_minor_POV_problems_from_March_2023
+2025-12-23 09:56:35,336 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Category:Articles_with_minor_POV_problems_from_March_2023...
+2025-12-23 09:56:37,386 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 09:56:37,386 - Main - INFO - Summary generated.
+2025-12-23 09:56:37,388 - Main - INFO - Processing (8/10): https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=12
+2025-12-23 09:56:37,388 - scraper - INFO - Navigating to: https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=12
+2025-12-23 09:56:41,414 - Main - INFO - Summarizing content for https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=12...
+2025-12-23 09:56:43,461 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 09:56:43,463 - Main - INFO - Summary generated.
+2025-12-23 09:56:43,466 - Main - INFO - Processing (9/10): https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=7
+2025-12-23 09:56:43,466 - scraper - INFO - Navigating to: https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=7
+2025-12-23 09:56:45,536 - Main - INFO - Summarizing content for https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=7...
+2025-12-23 09:56:47,591 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 09:56:47,591 - Main - INFO - Summary generated.
+2025-12-23 09:56:47,593 - Main - INFO - Processing (10/10): https://en.wikipedia.org/wiki/HtmlUnit
+2025-12-23 09:56:47,593 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/HtmlUnit
+2025-12-23 09:56:49,066 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/HtmlUnit...
+2025-12-23 09:56:51,119 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 09:56:51,119 - Main - INFO - Summary generated.
+2025-12-23 09:56:53,311 - Main - INFO - Scraping complete. Visited 10 pages.
+2025-12-23 09:56:53,315 - Main - INFO - Results saved to summary_report.json
+2025-12-23 10:01:30,005 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 10:01:30,007 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 10:01:31,226 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 10:01:31,515 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 10:01:31,730 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 10:01:32,841 - Main - INFO - Starting scrape process...
+2025-12-23 10:01:32,847 - Main - INFO - Processing (1/10): https://en.wikipedia.org/wiki/Selenium_(software)
+2025-12-23 10:01:32,847 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Selenium_(software)
+2025-12-23 10:01:35,309 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Selenium_(software)...
+2025-12-23 10:01:37,363 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/chat
+2025-12-23 10:01:37,363 - Main - INFO - Summary generated.
+2025-12-23 10:01:37,365 - Main - INFO - Processing (2/10): https://en.wikipedia.org/wiki/Web_browser
+2025-12-23 10:01:37,365 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Web_browser
+2025-12-23 10:01:39,400 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Web_browser...
+2025-12-23 10:01:41,438 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/chat
+2025-12-23 10:01:41,439 - Main - INFO - Summary generated.
+2025-12-23 10:01:41,460 - Main - INFO - Processing (3/10): https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=7
+2025-12-23 10:01:41,460 - scraper - INFO - Navigating to: https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=7
+2025-12-23 10:01:43,899 - Main - INFO - Summarizing content for https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=7...
+2025-12-23 10:01:45,922 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/chat
+2025-12-23 10:01:45,924 - Main - INFO - Summary generated.
+2025-12-23 10:01:45,925 - Main - INFO - Processing (4/10): https://en.wikipedia.org/wiki/List_of_web_testing_tools
+2025-12-23 10:01:45,925 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/List_of_web_testing_tools
+2025-12-23 10:01:47,791 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/List_of_web_testing_tools...
+2025-12-23 10:01:49,830 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/chat
+2025-12-23 10:01:49,831 - Main - INFO - Summary generated.
+2025-12-23 10:01:49,831 - Main - INFO - Processing (5/10): https://en.wikipedia.org/wiki/Help:Authority_control
+2025-12-23 10:01:49,831 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Help:Authority_control
+2025-12-23 10:01:51,679 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Help:Authority_control...
+2025-12-23 10:01:53,732 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/chat
+2025-12-23 10:01:53,734 - Main - INFO - Summary generated.
+2025-12-23 10:01:53,746 - Main - INFO - Processing (6/10): https://en.wikipedia.org/wiki/Wikipedia:EDITORIALIZING
+2025-12-23 10:01:53,746 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Wikipedia:EDITORIALIZING
+2025-12-23 10:01:56,716 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Wikipedia:EDITORIALIZING...
+2025-12-23 10:01:58,753 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/chat
+2025-12-23 10:01:58,753 - Main - INFO - Summary generated.
+2025-12-23 10:01:58,781 - Main - INFO - Processing (7/10): https://en.wikipedia.org/wiki/Add-on_(Mozilla)
+2025-12-23 10:01:58,781 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Add-on_(Mozilla)
+2025-12-23 10:02:00,437 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Add-on_(Mozilla)...
+2025-12-23 10:02:02,490 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/chat
+2025-12-23 10:02:02,490 - Main - INFO - Summary generated.
+2025-12-23 10:02:02,498 - Main - INFO - Processing (8/10): https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=13
+2025-12-23 10:02:02,499 - scraper - INFO - Navigating to: https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=13
+2025-12-23 10:02:04,586 - Main - INFO - Summarizing content for https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=13...
+2025-12-23 10:02:06,650 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/chat
+2025-12-23 10:02:06,650 - Main - INFO - Summary generated.
+2025-12-23 10:02:06,653 - Main - INFO - Processing (9/10): https://en.wikipedia.org/wiki/Category:Articles_with_minor_POV_problems_from_March_2023
+2025-12-23 10:02:06,653 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Category:Articles_with_minor_POV_problems_from_March_2023
+2025-12-23 10:02:08,124 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Category:Articles_with_minor_POV_problems_from_March_2023...
+2025-12-23 10:02:10,167 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/chat
+2025-12-23 10:02:10,167 - Main - INFO - Summary generated.
+2025-12-23 10:02:10,177 - Main - INFO - Processing (10/10): https://en.wikipedia.org/wiki/Node.js
+2025-12-23 10:02:10,177 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Node.js
+2025-12-23 10:02:11,940 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Node.js...
+2025-12-23 10:02:14,010 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/chat
+2025-12-23 10:02:14,010 - Main - INFO - Summary generated.
+2025-12-23 10:02:16,208 - Main - INFO - Scraping complete. Visited 10 pages.
+2025-12-23 10:02:16,208 - Main - INFO - Results saved to summary_report.json
+2025-12-23 10:10:08,938 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 10:10:08,939 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 10:10:10,231 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 10:10:10,582 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 10:10:10,891 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 10:10:12,025 - Main - INFO - Starting scrape process...
+2025-12-23 10:10:12,025 - Main - INFO - Processing (1/10): https://en.wikipedia.org/wiki/Selenium_(software)
+2025-12-23 10:10:12,025 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Selenium_(software)
+2025-12-23 10:10:14,376 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Selenium_(software)...
+2025-12-23 10:10:16,424 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:10:16,424 - Main - INFO - Summary generated.
+2025-12-23 10:10:16,428 - Main - INFO - Processing (2/10): https://en.wikipedia.org/wiki/Node.js
+2025-12-23 10:10:16,428 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Node.js
+2025-12-23 10:10:18,140 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Node.js...
+2025-12-23 10:10:20,194 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:10:20,198 - Main - INFO - Summary generated.
+2025-12-23 10:10:20,226 - Main - INFO - Processing (3/10): https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=7
+2025-12-23 10:10:20,226 - scraper - INFO - Navigating to: https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=7
+2025-12-23 10:10:22,867 - Main - INFO - Summarizing content for https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=7...
+2025-12-23 10:10:24,911 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:10:24,913 - Main - INFO - Summary generated.
+2025-12-23 10:10:24,916 - Main - INFO - Processing (4/10): https://en.wikipedia.org/wiki/Open_source
+2025-12-23 10:10:24,916 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Open_source
+2025-12-23 10:10:27,362 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Open_source...
+2025-12-23 10:10:29,407 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:10:29,407 - Main - INFO - Summary generated.
+2025-12-23 10:10:29,437 - Main - INFO - Processing (5/10): https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=10
+2025-12-23 10:10:29,437 - scraper - INFO - Navigating to: https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=10
+2025-12-23 10:10:31,502 - Main - INFO - Summarizing content for https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=10...
+2025-12-23 10:10:33,561 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:10:33,561 - Main - INFO - Summary generated.
+2025-12-23 10:10:33,563 - Main - INFO - Processing (6/10): https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=2
+2025-12-23 10:10:33,563 - scraper - INFO - Navigating to: https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=2
+2025-12-23 10:10:35,875 - Main - INFO - Summarizing content for https://en.wikipedia.org/w/index.php?title=Selenium_(software)&action=edit&section=2...
+2025-12-23 10:10:37,916 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:10:37,916 - Main - INFO - Summary generated.
+2025-12-23 10:10:37,920 - Main - INFO - Processing (7/10): https://en.wikipedia.org/wiki/Kotlin_(programming_language)
+2025-12-23 10:10:37,920 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Kotlin_(programming_language)
+2025-12-23 10:10:39,488 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Kotlin_(programming_language)...
+2025-12-23 10:10:41,540 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:10:41,542 - Main - INFO - Summary generated.
+2025-12-23 10:10:41,558 - Main - INFO - Processing (8/10): https://en.wikipedia.org/wiki/Wikipedia:Citation_needed
+2025-12-23 10:10:41,558 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Wikipedia:Citation_needed
+2025-12-23 10:10:43,142 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Wikipedia:Citation_needed...
+2025-12-23 10:10:45,185 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:10:45,186 - Main - INFO - Summary generated.
+2025-12-23 10:10:45,197 - Main - INFO - Processing (9/10): https://en.wikipedia.org/wiki/Scripting_language
+2025-12-23 10:10:45,199 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Scripting_language
+2025-12-23 10:10:46,812 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Scripting_language...
+2025-12-23 10:10:48,883 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:10:48,883 - Main - INFO - Summary generated.
+2025-12-23 10:10:48,900 - Main - INFO - Processing (10/10): https://en.wikipedia.org/wiki/HtmlUnit
+2025-12-23 10:10:48,902 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/HtmlUnit
+2025-12-23 10:10:50,296 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/HtmlUnit...
+2025-12-23 10:10:52,346 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:10:52,348 - Main - INFO - Summary generated.
+2025-12-23 10:10:54,484 - Main - INFO - Scraping complete. Visited 10 pages.
+2025-12-23 10:10:54,484 - Main - INFO - Results saved to summary_report.json
+2025-12-23 10:12:56,188 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 10:12:56,189 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 10:12:57,437 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 10:12:57,791 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 10:12:58,093 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 10:12:59,274 - Main - INFO - Starting scrape process...
+2025-12-23 10:12:59,274 - Main - INFO - Processing (1/10): https://en.wikipedia.org/wiki/History_of_India
+2025-12-23 10:12:59,275 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/History_of_India
+2025-12-23 10:13:03,218 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/History_of_India...
+2025-12-23 10:13:05,241 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:13:05,241 - Main - INFO - Summary generated.
+2025-12-23 10:13:05,332 - Main - INFO - Processing (2/10): https://en.wikipedia.org/wiki/File:Rear_view_showing_lateral_entrances_of_the_Mahadeva_Temple_at_Itagi_in_the_Koppal_district.JPG
+2025-12-23 10:13:05,332 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/File:Rear_view_showing_lateral_entrances_of_the_Mahadeva_Temple_at_Itagi_in_the_Koppal_district.JPG
+2025-12-23 10:13:07,866 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/File:Rear_view_showing_lateral_entrances_of_the_Mahadeva_Temple_at_Itagi_in_the_Koppal_district.JPG...
+2025-12-23 10:13:09,913 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:13:09,914 - Main - INFO - Summary generated.
+2025-12-23 10:13:09,917 - Main - INFO - Processing (3/10): https://en.wikipedia.org/wiki/List_of_towns_in_India_by_population
+2025-12-23 10:13:09,917 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/List_of_towns_in_India_by_population
+2025-12-23 10:13:11,970 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/List_of_towns_in_India_by_population...
+2025-12-23 10:13:14,020 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:13:14,020 - Main - INFO - Summary generated.
+2025-12-23 10:13:14,070 - Main - INFO - Processing (4/10): https://en.wikipedia.org/wiki/Indian_culture
+2025-12-23 10:13:14,070 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Indian_culture
+2025-12-23 10:13:18,408 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Indian_culture...
+2025-12-23 10:13:20,443 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:13:20,443 - Main - INFO - Summary generated.
+2025-12-23 10:13:20,505 - Main - INFO - Processing (5/10): https://en.wikipedia.org/wiki/Nalanda
+2025-12-23 10:13:20,505 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Nalanda
+2025-12-23 10:13:22,900 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Nalanda...
+2025-12-23 10:13:24,945 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:13:24,945 - Main - INFO - Summary generated.
+2025-12-23 10:13:25,000 - Main - INFO - Processing (6/10): https://en.wikipedia.org/wiki/Great_Famine_of_1876%E2%80%931878
+2025-12-23 10:13:25,000 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Great_Famine_of_1876%E2%80%931878
+2025-12-23 10:13:26,726 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Great_Famine_of_1876%E2%80%931878...
+2025-12-23 10:13:28,767 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:13:28,767 - Main - INFO - Summary generated.
+2025-12-23 10:13:28,770 - Main - INFO - Processing (7/10): https://en.wikipedia.org/wiki/Special:BookSources/978-0-465-00201-6
+2025-12-23 10:13:28,780 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Special:BookSources/978-0-465-00201-6
+2025-12-23 10:13:31,670 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Special:BookSources/978-0-465-00201-6...
+2025-12-23 10:13:33,707 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:13:33,708 - Main - INFO - Summary generated.
+2025-12-23 10:13:33,748 - Main - INFO - Processing (8/10): https://en.wikipedia.org/wiki/One_World_Media
+2025-12-23 10:13:33,749 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/One_World_Media
+2025-12-23 10:13:35,270 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/One_World_Media...
+2025-12-23 10:13:37,324 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:13:37,325 - Main - INFO - Summary generated.
+2025-12-23 10:13:37,325 - Main - INFO - Processing (9/10): https://en.wikipedia.org/wiki/Battle_of_Megiddo_(1918)
+2025-12-23 10:13:37,325 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Battle_of_Megiddo_(1918)
+2025-12-23 10:13:40,971 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Battle_of_Megiddo_(1918)...
+2025-12-23 10:13:43,001 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:13:43,003 - Main - INFO - Summary generated.
+2025-12-23 10:13:43,040 - Main - INFO - Processing (10/10): https://en.wikipedia.org/wiki/Monuments_of_National_Importance_of_India
+2025-12-23 10:13:43,040 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Monuments_of_National_Importance_of_India
+2025-12-23 10:13:44,852 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Monuments_of_National_Importance_of_India...
+2025-12-23 10:13:46,885 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/v1/chat/completions
+2025-12-23 10:13:46,885 - Main - INFO - Summary generated.
+2025-12-23 10:13:49,082 - Main - INFO - Scraping complete. Visited 10 pages.
+2025-12-23 10:13:49,083 - Main - INFO - Results saved to summary_report.json
+2025-12-23 10:21:00,808 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 10:21:00,808 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 10:21:01,980 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 10:21:02,354 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 10:21:02,662 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 10:21:03,754 - Main - INFO - Starting scrape process...
+2025-12-23 10:21:03,754 - Main - INFO - Processing (1/10): https://en.wikipedia.org/wiki/History_of_India
+2025-12-23 10:21:03,754 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/History_of_India
+2025-12-23 10:21:07,269 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/History_of_India...
+2025-12-23 10:21:09,316 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 10:21:09,316 - Main - INFO - Summary generated.
+2025-12-23 10:21:09,428 - Main - INFO - Processing (2/10): https://en.wikipedia.org/wiki/Alauddin_Khalji
+2025-12-23 10:21:09,428 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Alauddin_Khalji
+2025-12-23 10:21:11,376 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Alauddin_Khalji...
+2025-12-23 10:21:13,427 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 10:21:13,428 - Main - INFO - Summary generated.
+2025-12-23 10:21:13,449 - Main - INFO - Processing (3/10): https://en.wikipedia.org/wiki/Shore_Temple
+2025-12-23 10:21:13,450 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Shore_Temple
+2025-12-23 10:21:15,835 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Shore_Temple...
+2025-12-23 10:21:17,875 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 10:21:17,876 - Main - INFO - Summary generated.
+2025-12-23 10:21:17,880 - Main - INFO - Processing (4/10): https://en.wikipedia.org/wiki/Sikh
+2025-12-23 10:21:17,880 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Sikh
+2025-12-23 10:21:19,935 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Sikh...
+2025-12-23 10:21:22,000 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 10:21:22,000 - Main - INFO - Summary generated.
+2025-12-23 10:21:22,049 - Main - INFO - Processing (5/10): https://en.wikipedia.org/wiki/Tomaras
+2025-12-23 10:21:22,049 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Tomaras
+2025-12-23 10:21:24,167 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Tomaras...
+2025-12-23 10:21:26,200 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 10:21:26,200 - Main - INFO - Summary generated.
+2025-12-23 10:21:26,211 - Main - INFO - Processing (6/10): https://en.wikipedia.org/wiki/Asceticism
+2025-12-23 10:21:26,211 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Asceticism
+2025-12-23 10:21:28,361 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Asceticism...
+2025-12-23 10:21:30,420 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 10:21:30,420 - Main - INFO - Summary generated.
+2025-12-23 10:21:30,471 - Main - INFO - Processing (7/10): https://en.wikipedia.org/wiki/Chhattisgarh
+2025-12-23 10:21:30,476 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Chhattisgarh
+2025-12-23 10:21:32,773 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Chhattisgarh...
+2025-12-23 10:21:34,834 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 10:21:34,834 - Main - INFO - Summary generated.
+2025-12-23 10:21:34,865 - Main - INFO - Processing (8/10): https://en.wikipedia.org/wiki/Guru_Nanak
+2025-12-23 10:21:34,865 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Guru_Nanak
+2025-12-23 10:21:36,728 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Guru_Nanak...
+2025-12-23 10:21:38,779 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 10:21:38,780 - Main - INFO - Summary generated.
+2025-12-23 10:21:38,826 - Main - INFO - Processing (9/10): https://en.wikipedia.org/wiki/Indian_Navy
+2025-12-23 10:21:38,826 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Indian_Navy
+2025-12-23 10:21:42,595 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Indian_Navy...
+2025-12-23 10:21:44,648 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 10:21:44,650 - Main - INFO - Summary generated.
+2025-12-23 10:21:44,711 - Main - INFO - Processing (10/10): https://en.wikipedia.org/wiki/Rita_P._Wright
+2025-12-23 10:21:44,711 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Rita_P._Wright
+2025-12-23 10:21:46,238 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Rita_P._Wright...
+2025-12-23 10:21:48,277 - ollama_client - ERROR - Error generating summary: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2025-12-23 10:21:48,279 - Main - INFO - Summary generated.
+2025-12-23 10:21:50,489 - Main - INFO - Scraping complete. Visited 10 pages.
+2025-12-23 10:21:50,489 - Main - INFO - Results saved to summary_report.json
+2025-12-23 10:26:52,240 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 10:26:52,241 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 10:26:53,430 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 10:26:53,584 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 10:26:53,827 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 10:26:54,958 - Main - INFO - Starting scrape process...
+2025-12-23 10:26:54,958 - Main - INFO - Processing (1/10): https://en.wikipedia.org/wiki/History_of_India
+2025-12-23 10:26:54,958 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/History_of_India
+2025-12-23 10:26:59,149 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/History_of_India...
+2025-12-23 10:29:03,741 - Main - INFO - Summary generated.
+2025-12-23 10:29:04,041 - Main - INFO - Processing (2/10): https://en.wikipedia.org/wiki/India
+2025-12-23 10:29:04,041 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/India
+2025-12-23 10:29:17,426 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/India...
+2025-12-23 10:31:23,906 - Main - INFO - Summary generated.
+2025-12-23 10:31:24,205 - Main - INFO - Processing (3/10): https://en.wikipedia.org/wiki/Eastern_Ganga_dynasty
+2025-12-23 10:31:24,221 - scraper - INFO - Navigating to: https://en.wikipedia.org/wiki/Eastern_Ganga_dynasty
+2025-12-23 10:31:36,474 - Main - INFO - Summarizing content for https://en.wikipedia.org/wiki/Eastern_Ganga_dynasty...
+2025-12-23 10:35:08,104 - Main - INFO - Scraping interrupted by user.
+2025-12-23 10:35:12,173 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=64745): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/7fad9e886243ccf66d266c5e26a509ce
+2025-12-23 10:35:16,228 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=64745): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/7fad9e886243ccf66d266c5e26a509ce
+2025-12-23 10:35:20,304 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=64745): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/7fad9e886243ccf66d266c5e26a509ce
+2025-12-23 10:35:24,360 - Main - INFO - Scraping complete. Visited 3 pages.
+2025-12-23 10:35:24,360 - Main - INFO - Results saved to summary_report.json
+2025-12-23 10:52:29,965 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 10:52:29,966 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 10:52:31,187 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 10:52:31,517 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 10:52:31,826 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 10:52:33,094 - Main - INFO - Starting scrape process...
+2025-12-23 10:52:33,094 - Main - INFO - Processing (1/10): https://english.mathrubhumi.com/
+2025-12-23 10:52:33,094 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/
+2025-12-23 10:52:37,906 - scraper - INFO - Truncating content at 3 headers / 247 chars.
+2025-12-23 10:52:37,906 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/...
+2025-12-23 10:52:50,898 - Main - INFO - Summary generated.
+2025-12-23 10:52:50,903 - Main - INFO - Processing (2/10): https://english.mathrubhumi.com/news/india/bulandshahr-nh19-gang-rape-convicts-life-imprisonment-odunbzny
+2025-12-23 10:52:50,903 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/news/india/bulandshahr-nh19-gang-rape-convicts-life-imprisonment-odunbzny
+2025-12-23 10:53:01,435 - scraper - INFO - Truncating content at 3 headers / 3519 chars.
+2025-12-23 10:53:01,435 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/news/india/bulandshahr-nh19-gang-rape-convicts-life-imprisonment-odunbzny...
+2025-12-23 10:53:45,166 - Main - INFO - Summary generated.
+2025-12-23 10:53:45,169 - Main - INFO - Processing (3/10): https://english.mathrubhumi.com/topics/tag/assault_case
+2025-12-23 10:53:45,169 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/assault_case
+2025-12-23 10:53:57,051 - scraper - INFO - Truncating content at 3 headers / 169 chars.
+2025-12-23 10:53:57,051 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/assault_case...
+2025-12-23 10:54:02,832 - Main - INFO - Summary generated.
+2025-12-23 10:54:02,833 - Main - INFO - Processing (4/10): https://english.mathrubhumi.com/technology/apple-to-appeal-after-italy-fines-116-million-over-app-privacy-rules-j0l4853h
+2025-12-23 10:54:02,833 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/technology/apple-to-appeal-after-italy-fines-116-million-over-app-privacy-rules-j0l4853h
+2025-12-23 10:54:09,746 - scraper - INFO - Truncating content at 3 headers / 2831 chars.
+2025-12-23 10:54:09,746 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/technology/apple-to-appeal-after-italy-fines-116-million-over-app-privacy-rules-j0l4853h...
+2025-12-23 10:54:48,743 - Main - INFO - Summary generated.
+2025-12-23 10:54:48,745 - Main - INFO - Processing (5/10): https://english.mathrubhumi.com/topics/tag/mbifl_2026
+2025-12-23 10:54:48,745 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/mbifl_2026
+2025-12-23 10:54:56,263 - scraper - INFO - Truncating content at 3 headers / 164 chars.
+2025-12-23 10:54:56,263 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/mbifl_2026...
+2025-12-23 10:55:01,384 - Main - INFO - Summary generated.
+2025-12-23 10:55:01,384 - Main - INFO - Processing (6/10): https://english.mathrubhumi.com/movies-music/news/all-he-said-was-sreeni-is-gone-and-my-father-hung-up-nothing-more-needed-anoop-sathyan-iureulhn
+2025-12-23 10:55:01,384 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/movies-music/news/all-he-said-was-sreeni-is-gone-and-my-father-hung-up-nothing-more-needed-anoop-sathyan-iureulhn
+2025-12-23 10:55:07,181 - scraper - INFO - Truncating content at 3 headers / 2899 chars.
+2025-12-23 10:55:07,181 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/movies-music/news/all-he-said-was-sreeni-is-gone-and-my-father-hung-up-nothing-more-needed-anoop-sathyan-iureulhn...
+2025-12-23 10:55:42,139 - Main - INFO - Summary generated.
+2025-12-23 10:55:42,142 - Main - INFO - Processing (7/10): https://english.mathrubhumi.com/topics/tag/privacy_policy
+2025-12-23 10:55:42,142 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/privacy_policy
+2025-12-23 10:55:55,033 - scraper - INFO - Truncating content at 3 headers / 180 chars.
+2025-12-23 10:55:55,033 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/privacy_policy...
+2025-12-23 10:56:02,010 - Main - INFO - Summary generated.
+2025-12-23 10:56:02,010 - Main - INFO - Processing (8/10): https://english.mathrubhumi.com/topics/tag/dhurandhar_movie
+2025-12-23 10:56:02,010 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/dhurandhar_movie
+2025-12-23 10:56:07,246 - scraper - INFO - Truncating content at 3 headers / 212 chars.
+2025-12-23 10:56:07,254 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/dhurandhar_movie...
+2025-12-23 10:56:17,237 - Main - INFO - Summary generated.
+2025-12-23 10:56:17,238 - Main - INFO - Processing (9/10): https://english.mathrubhumi.com/topics/tag/kannur_university
+2025-12-23 10:56:17,238 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/kannur_university
+2025-12-23 10:56:24,034 - scraper - INFO - Truncating content at 3 headers / 205 chars.
+2025-12-23 10:56:24,034 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/kannur_university...
+2025-12-23 10:56:32,042 - Main - INFO - Summary generated.
+2025-12-23 10:56:32,042 - Main - INFO - Processing (10/10): https://english.mathrubhumi.com/columns/i-mean-what-i-say/beyond-cynicism-kerala-20-a-blueprint-for-bold-reform-l4j5sxgu
+2025-12-23 10:56:32,042 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/columns/i-mean-what-i-say/beyond-cynicism-kerala-20-a-blueprint-for-bold-reform-l4j5sxgu
+2025-12-23 10:56:36,587 - scraper - INFO - Truncating content at 3 headers / 8776 chars.
+2025-12-23 10:56:36,587 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/columns/i-mean-what-i-say/beyond-cynicism-kerala-20-a-blueprint-for-bold-reform-l4j5sxgu...
+2025-12-23 10:58:31,330 - Main - INFO - Summary generated.
+2025-12-23 10:58:33,970 - Main - INFO - Scraping complete. Visited 10 pages.
+2025-12-23 10:58:33,972 - Main - INFO - Results saved to summary_report.json
+2025-12-23 11:01:31,231 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 11:01:31,232 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 11:01:32,650 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 11:01:32,992 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 11:01:33,317 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 11:01:34,801 - Main - INFO - Starting scrape process...
+2025-12-23 11:01:34,801 - Main - INFO - Processing (1/10): https://english.mathrubhumi.com/
+2025-12-23 11:01:34,801 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/
+2025-12-23 11:01:43,119 - scraper - INFO - Truncating content at 3 headers / 249 chars.
+2025-12-23 11:01:43,119 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/...
+2025-12-23 11:01:51,439 - Main - INFO - Summary generated.
+2025-12-23 11:01:51,443 - Main - INFO - Processing (2/10): https://english.mathrubhumi.com/news/kerala
+2025-12-23 11:01:51,443 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/news/kerala
+2025-12-23 11:01:54,758 - scraper - INFO - Truncating content at 3 headers / 154 chars.
+2025-12-23 11:01:54,758 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/news/kerala...
+2025-12-23 11:02:00,953 - Main - INFO - Summary generated.
+2025-12-23 11:02:00,954 - Main - INFO - Processing (3/10): https://english.mathrubhumi.com/topics/tag/us_immigration
+2025-12-23 11:02:00,954 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/us_immigration
+2025-12-23 11:02:18,230 - scraper - INFO - Truncating content at 3 headers / 205 chars.
+2025-12-23 11:02:18,230 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/us_immigration...
+2025-12-23 11:02:26,351 - Main - INFO - Summary generated.
+2025-12-23 11:02:26,352 - Main - INFO - Processing (4/10): https://english.mathrubhumi.com/topics/tag/bombay_film
+2025-12-23 11:02:26,352 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/bombay_film
+2025-12-23 11:02:31,757 - scraper - INFO - Truncating content at 3 headers / 213 chars.
+2025-12-23 11:02:31,757 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/bombay_film...
+2025-12-23 11:02:40,193 - Main - INFO - Summary generated.
+2025-12-23 11:02:40,197 - Main - INFO - Processing (5/10): https://english.mathrubhumi.com/topics/tag/iffk_2025
+2025-12-23 11:02:40,197 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/iffk_2025
+2025-12-23 11:02:45,904 - scraper - INFO - Truncating content at 3 headers / 195 chars.
+2025-12-23 11:02:45,904 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/iffk_2025...
+2025-12-23 11:02:54,835 - Main - INFO - Summary generated.
+2025-12-23 11:02:54,835 - Main - INFO - Processing (6/10): https://english.mathrubhumi.com/topics/tag/assault_case
+2025-12-23 11:02:54,835 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/assault_case
+2025-12-23 11:03:02,218 - scraper - INFO - Truncating content at 3 headers / 169 chars.
+2025-12-23 11:03:02,219 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/assault_case...
+2025-12-23 11:03:48,355 - Main - INFO - Summary generated.
+2025-12-23 11:03:48,359 - Main - INFO - Processing (7/10): https://english.mathrubhumi.com/topics/tag/bollywood
+2025-12-23 11:03:48,359 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/bollywood
+2025-12-23 11:03:58,357 - scraper - INFO - Truncating content at 3 headers / 179 chars.
+2025-12-23 11:03:58,357 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/bollywood...
+2025-12-23 11:04:05,923 - Main - INFO - Summary generated.
+2025-12-23 11:04:05,929 - Main - INFO - Processing (8/10): https://english.mathrubhumi.com/news/india/india-weather-december-23-2025-north-south-e5hlxtom
+2025-12-23 11:04:05,942 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/news/india/india-weather-december-23-2025-north-south-e5hlxtom
+2025-12-23 11:04:28,839 - scraper - INFO - Truncating content at 3 headers / 3525 chars.
+2025-12-23 11:04:28,839 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/news/india/india-weather-december-23-2025-north-south-e5hlxtom...
+2025-12-23 11:05:09,764 - Main - INFO - Summary generated.
+2025-12-23 11:05:09,781 - Main - INFO - Processing (9/10): https://english.mathrubhumi.com/columns/bystander/bronze-medal-finish-for-junior-hockey-yet-inspiring-vsir7inl
+2025-12-23 11:05:09,784 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/columns/bystander/bronze-medal-finish-for-junior-hockey-yet-inspiring-vsir7inl
+2025-12-23 11:05:21,956 - scraper - INFO - Truncating content at 3 headers / 5521 chars.
+2025-12-23 11:05:21,961 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/columns/bystander/bronze-medal-finish-for-junior-hockey-yet-inspiring-vsir7inl...
+2025-12-23 11:06:36,915 - Main - INFO - Summary generated.
+2025-12-23 11:06:36,919 - Main - INFO - Processing (10/10): https://english.mathrubhumi.com/topics/tag/plane_crash
+2025-12-23 11:06:36,919 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/plane_crash
+2025-12-23 11:06:45,743 - scraper - INFO - Truncating content at 3 headers / 203 chars.
+2025-12-23 11:06:45,743 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/plane_crash...
+2025-12-23 11:06:54,195 - Main - INFO - Summary generated.
+2025-12-23 11:06:57,907 - Main - INFO - Scraping complete. Visited 10 pages.
+2025-12-23 11:06:57,915 - Main - INFO - Results saved to summary_report.json
+2025-12-23 11:11:54,588 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 11:11:54,590 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 11:11:55,803 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 11:11:56,111 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 11:11:56,364 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 11:11:57,614 - Main - INFO - Starting scrape process...
+2025-12-23 11:11:57,616 - Main - INFO - Processing (1/10): https://timesofindia.indiatimes.com/
+2025-12-23 11:11:57,616 - scraper - INFO - Navigating to: https://timesofindia.indiatimes.com/
+2025-12-23 11:13:59,522 - scraper - ERROR - Unexpected error on https://timesofindia.indiatimes.com/: HTTPConnectionPool(host='localhost', port=51300): Read timed out. (read timeout=120)
+2025-12-23 11:13:59,523 - Main - WARNING - No content found for https://timesofindia.indiatimes.com/
+2025-12-23 11:15:59,539 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=51300): Read timed out. (read timeout=120)")': /session/3ea64952215f821a312010b7fa8356c0
+2025-12-23 11:17:59,552 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=51300): Read timed out. (read timeout=120)")': /session/3ea64952215f821a312010b7fa8356c0
+2025-12-23 11:19:59,574 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=51300): Read timed out. (read timeout=120)")': /session/3ea64952215f821a312010b7fa8356c0
+2025-12-23 11:22:12,638 - Main - INFO - Scraping complete. Visited 1 pages.
+2025-12-23 11:22:12,638 - Main - INFO - Results saved to summary_report.json
+2025-12-23 12:00:48,376 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 12:00:48,376 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 12:00:49,471 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 12:00:49,583 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 12:00:49,666 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 12:00:50,867 - Main - INFO - Starting scrape process...
+2025-12-23 12:00:50,867 - Main - INFO - Processing (1/10): https://timesofindia.indiatimes.com/
+2025-12-23 12:00:50,867 - scraper - INFO - Navigating to: https://timesofindia.indiatimes.com/
+2025-12-23 12:00:58,678 - Main - INFO - Summarizing content for https://timesofindia.indiatimes.com/...
+2025-12-23 12:01:22,005 - Main - INFO - Summary generated.
+2025-12-23 12:01:22,006 - Main - INFO - Processing (2/10): https://timesofindia.indiatimes.com/feedback.cms
+2025-12-23 12:01:22,006 - scraper - INFO - Navigating to: https://timesofindia.indiatimes.com/feedback.cms
+2025-12-23 12:01:46,135 - scraper - INFO - Truncating content at 3 headers / 356 chars.
+2025-12-23 12:01:46,135 - Main - INFO - Summarizing content for https://timesofindia.indiatimes.com/feedback.cms...
+2025-12-23 12:01:54,033 - Main - INFO - Summary generated.
+2025-12-23 12:01:54,035 - Main - INFO - Processing (3/10): https://timesofindia.indiatimes.com/sitemap.cms
+2025-12-23 12:01:54,035 - scraper - INFO - Navigating to: https://timesofindia.indiatimes.com/sitemap.cms
+2025-12-23 12:01:58,740 - scraper - INFO - Truncating content at 3 headers / 221 chars.
+2025-12-23 12:01:58,740 - Main - INFO - Summarizing content for https://timesofindia.indiatimes.com/sitemap.cms...
+2025-12-23 12:02:07,440 - Main - INFO - Summary generated.
+2025-12-23 12:02:07,476 - Main - INFO - Processing (4/10): https://timesofindia.indiatimes.com/privacy-policy/cookiepolicy/86934312.cms
+2025-12-23 12:02:07,476 - scraper - INFO - Navigating to: https://timesofindia.indiatimes.com/privacy-policy/cookiepolicy/86934312.cms
+2025-12-23 12:02:12,386 - Main - INFO - Summarizing content for https://timesofindia.indiatimes.com/privacy-policy/cookiepolicy/86934312.cms...
+2025-12-23 12:02:19,160 - Main - INFO - Summary generated.
+2025-12-23 12:02:19,162 - Main - INFO - Processing (5/10): https://timesofindia.indiatimes.com/technology/tech-news
+2025-12-23 12:02:19,162 - scraper - INFO - Navigating to: https://timesofindia.indiatimes.com/technology/tech-news
+2025-12-23 12:02:24,334 - scraper - INFO - Truncating content at 3 headers / 784 chars.
+2025-12-23 12:02:24,334 - Main - INFO - Summarizing content for https://timesofindia.indiatimes.com/technology/tech-news...
+2025-12-23 12:02:39,879 - Main - INFO - Summary generated.
+2025-12-23 12:02:39,884 - Main - INFO - Processing (6/10): https://timesofindia.indiatimes.com/sports/nba/top-stories/nba-injury-update-anthony-davis-pushes-through-illness-as-dallas-mavericks-search-for-spark-ahead-of-philadelphia-76ers-clash/articleshow/126096471.cms
+2025-12-23 12:02:39,885 - scraper - INFO - Navigating to: https://timesofindia.indiatimes.com/sports/nba/top-stories/nba-injury-update-anthony-davis-pushes-through-illness-as-dallas-mavericks-search-for-spark-ahead-of-philadelphia-76ers-clash/articleshow/126096471.cms
+2025-12-23 12:02:45,323 - scraper - INFO - Truncating content at 3 headers / 309 chars.
+2025-12-23 12:02:45,323 - Main - INFO - Summarizing content for https://timesofindia.indiatimes.com/sports/nba/top-stories/nba-injury-update-anthony-davis-pushes-through-illness-as-dallas-mavericks-search-for-spark-ahead-of-philadelphia-76ers-clash/articleshow/126096471.cms...
+2025-12-23 12:02:52,990 - Main - INFO - Summary generated.
+2025-12-23 12:02:52,996 - Main - INFO - Processing (7/10): https://timesofindia.indiatimes.com/life-style/books/quote-of-the-day-by-george-washington-i-hope-i-shall-possess-firmness-and-virtue-enough-to-maintain/articleshow/125910525.cms
+2025-12-23 12:02:52,996 - scraper - INFO - Navigating to: https://timesofindia.indiatimes.com/life-style/books/quote-of-the-day-by-george-washington-i-hope-i-shall-possess-firmness-and-virtue-enough-to-maintain/articleshow/125910525.cms
+2025-12-23 12:02:57,879 - scraper - INFO - Truncating content at 3 headers / 196 chars.
+2025-12-23 12:02:57,879 - Main - INFO - Summarizing content for https://timesofindia.indiatimes.com/life-style/books/quote-of-the-day-by-george-washington-i-hope-i-shall-possess-firmness-and-virtue-enough-to-maintain/articleshow/125910525.cms...
+2025-12-23 12:03:03,963 - Main - INFO - Summary generated.
+2025-12-23 12:03:03,968 - Main - INFO - Processing (8/10): https://timesofindia.indiatimes.com/sports/esports/news/is-ada-in-resident-evil-requiem-new-leaks-rumors-and-more-explained/articleshow/126126559.cms
+2025-12-23 12:03:03,968 - scraper - INFO - Navigating to: https://timesofindia.indiatimes.com/sports/esports/news/is-ada-in-resident-evil-requiem-new-leaks-rumors-and-more-explained/articleshow/126126559.cms
+2025-12-23 12:03:14,931 - scraper - INFO - Truncating content at 3 headers / 183 chars.
+2025-12-23 12:03:14,932 - Main - INFO - Summarizing content for https://timesofindia.indiatimes.com/sports/esports/news/is-ada-in-resident-evil-requiem-new-leaks-rumors-and-more-explained/articleshow/126126559.cms...
+2025-12-23 12:03:20,856 - Main - INFO - Summary generated.
+2025-12-23 12:03:20,859 - Main - INFO - Processing (9/10): https://timesofindia.indiatimes.com/sports/nhl/news/edmonton-oilers-goaltender-tristan-jarry-to-miss-several-weeks-after-lowerbody-injury/articleshow/126123351.cms
+2025-12-23 12:03:20,859 - scraper - INFO - Navigating to: https://timesofindia.indiatimes.com/sports/nhl/news/edmonton-oilers-goaltender-tristan-jarry-to-miss-several-weeks-after-lowerbody-injury/articleshow/126123351.cms
+2025-12-23 12:03:27,926 - scraper - INFO - Truncating content at 3 headers / 225 chars.
+2025-12-23 12:03:27,927 - Main - INFO - Summarizing content for https://timesofindia.indiatimes.com/sports/nhl/news/edmonton-oilers-goaltender-tristan-jarry-to-miss-several-weeks-after-lowerbody-injury/articleshow/126123351.cms...
+2025-12-23 12:04:21,463 - Main - INFO - Summary generated.
+2025-12-23 12:04:21,470 - Main - INFO - Processing (10/10): https://timesofindia.indiatimes.com/life-style/home-garden/how-to-get-rid-of-cockroaches-in-the-winter-and-stop-them-coming-back/articleshow/126034902.cms
+2025-12-23 12:04:21,470 - scraper - INFO - Navigating to: https://timesofindia.indiatimes.com/life-style/home-garden/how-to-get-rid-of-cockroaches-in-the-winter-and-stop-them-coming-back/articleshow/126034902.cms
+2025-12-23 12:04:25,224 - scraper - INFO - Truncating content at 3 headers / 185 chars.
+2025-12-23 12:04:25,225 - Main - INFO - Summarizing content for https://timesofindia.indiatimes.com/life-style/home-garden/how-to-get-rid-of-cockroaches-in-the-winter-and-stop-them-coming-back/articleshow/126034902.cms...
+2025-12-23 12:05:11,578 - Main - INFO - Summary generated.
+2025-12-23 12:05:14,460 - Main - INFO - Scraping complete. Visited 10 pages.
+2025-12-23 12:05:14,460 - Main - INFO - Results saved to summary_report.json
+2025-12-23 12:07:33,743 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 12:07:33,743 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 12:07:34,984 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 12:07:35,387 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 12:07:35,591 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 12:07:37,025 - Main - INFO - Starting scrape process...
+2025-12-23 12:07:37,026 - Main - INFO - Processing (1/10): https://english.mathrubhumi.com/
+2025-12-23 12:07:37,026 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/
+2025-12-23 12:07:41,671 - scraper - INFO - Truncating content at 3 headers / 260 chars.
+2025-12-23 12:07:41,671 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/...
+2025-12-23 12:07:50,445 - Main - INFO - Summary generated.
+2025-12-23 12:07:50,453 - Main - INFO - Processing (2/10): https://english.mathrubhumi.com/topics/tag/mbifl_2026
+2025-12-23 12:07:50,453 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/mbifl_2026
+2025-12-23 12:08:02,083 - scraper - INFO - Truncating content at 3 headers / 164 chars.
+2025-12-23 12:08:02,084 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/mbifl_2026...
+2025-12-23 12:08:09,300 - Main - INFO - Summary generated.
+2025-12-23 12:08:09,301 - Main - INFO - Processing (3/10): https://english.mathrubhumi.com/education/news/tnpsc-combined-technical-services-recruitment-eligibility-dates-and-vacancies-explained-v095idl0
+2025-12-23 12:08:09,301 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/education/news/tnpsc-combined-technical-services-recruitment-eligibility-dates-and-vacancies-explained-v095idl0
+2025-12-23 12:08:36,838 - scraper - INFO - Truncating content at 3 headers / 3127 chars.
+2025-12-23 12:08:36,838 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/education/news/tnpsc-combined-technical-services-recruitment-eligibility-dates-and-vacancies-explained-v095idl0...
+2025-12-23 12:09:14,553 - Main - INFO - Summary generated.
+2025-12-23 12:09:14,558 - Main - INFO - Processing (4/10): https://english.mathrubhumi.com/movies-music/news/jab-shaila-bano-met-theyyam-manishas-visit-to-bekal-celebrating-bombay-gets-a-spiritual-twist-rhfyroeo
+2025-12-23 12:09:14,558 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/movies-music/news/jab-shaila-bano-met-theyyam-manishas-visit-to-bekal-celebrating-bombay-gets-a-spiritual-twist-rhfyroeo
+2025-12-23 12:09:17,024 - scraper - INFO - Truncating content at 3 headers / 1678 chars.
+2025-12-23 12:09:17,025 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/movies-music/news/jab-shaila-bano-met-theyyam-manishas-visit-to-bekal-celebrating-bombay-gets-a-spiritual-twist-rhfyroeo...
+2025-12-23 12:09:41,196 - Main - INFO - Summary generated.
+2025-12-23 12:09:41,200 - Main - INFO - Processing (5/10): https://english.mathrubhumi.com/education/news/ugc-net-dec-2025-city-intimation-slip-pkk9crxj
+2025-12-23 12:09:41,200 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/education/news/ugc-net-dec-2025-city-intimation-slip-pkk9crxj
+2025-12-23 12:09:43,498 - scraper - INFO - Truncating content at 3 headers / 1666 chars.
+2025-12-23 12:09:43,499 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/education/news/ugc-net-dec-2025-city-intimation-slip-pkk9crxj...
+2025-12-23 12:10:09,464 - Main - INFO - Summary generated.
+2025-12-23 12:10:09,469 - Main - INFO - Processing (6/10): https://english.mathrubhumi.com/topics/tag/dhurandhar_movie
+2025-12-23 12:10:09,469 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/dhurandhar_movie
+2025-12-23 12:10:12,213 - scraper - INFO - Truncating content at 3 headers / 212 chars.
+2025-12-23 12:10:12,214 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/dhurandhar_movie...
+2025-12-23 12:10:21,772 - Main - INFO - Summary generated.
+2025-12-23 12:10:21,774 - Main - INFO - Processing (7/10): https://english.mathrubhumi.com/columns/erasing-gandhi-twice-how-scrapping-mgnregs-betrays-his-legacy-qhcbq9o4
+2025-12-23 12:10:21,774 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/columns/erasing-gandhi-twice-how-scrapping-mgnregs-betrays-his-legacy-qhcbq9o4
+2025-12-23 12:10:24,419 - scraper - INFO - Truncating content at 3 headers / 5599 chars.
+2025-12-23 12:10:24,420 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/columns/erasing-gandhi-twice-how-scrapping-mgnregs-betrays-his-legacy-qhcbq9o4...
+2025-12-23 12:11:50,120 - Main - INFO - Summary generated.
+2025-12-23 12:11:50,124 - Main - INFO - Processing (8/10): https://english.mathrubhumi.com/news/kerala/kerala-lss-uss-exams-to-be-renamed-cm-kids-scholarship-major-reforms-on-cards-dh9f37ry
+2025-12-23 12:11:50,125 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/news/kerala/kerala-lss-uss-exams-to-be-renamed-cm-kids-scholarship-major-reforms-on-cards-dh9f37ry
+2025-12-23 12:11:55,322 - scraper - INFO - Truncating content at 3 headers / 2153 chars.
+2025-12-23 12:11:55,323 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/news/kerala/kerala-lss-uss-exams-to-be-renamed-cm-kids-scholarship-major-reforms-on-cards-dh9f37ry...
+2025-12-23 12:12:20,478 - Main - INFO - Summary generated.
+2025-12-23 12:12:20,481 - Main - INFO - Processing (9/10): https://english.mathrubhumi.com/topics/tag/free_fire
+2025-12-23 12:12:20,482 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/free_fire
+2025-12-23 12:12:28,612 - scraper - INFO - Truncating content at 3 headers / 176 chars.
+2025-12-23 12:12:28,613 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/free_fire...
+2025-12-23 12:12:34,604 - Main - INFO - Summary generated.
+2025-12-23 12:12:34,605 - Main - INFO - Processing (10/10): https://english.mathrubhumi.com/topics/tag/unemployment
+2025-12-23 12:12:34,605 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/unemployment
+2025-12-23 12:12:41,980 - scraper - INFO - Truncating content at 3 headers / 158 chars.
+2025-12-23 12:12:41,981 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/unemployment...
+2025-12-23 12:13:22,350 - Main - INFO - Summary generated.
+2025-12-23 12:13:25,050 - Main - INFO - Scraping complete. Visited 10 pages.
+2025-12-23 12:13:25,051 - Main - INFO - Results saved to summary_report.json
+2025-12-23 12:18:49,660 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 12:18:49,663 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 12:18:52,662 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 12:18:52,973 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 12:18:53,280 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 12:18:55,136 - Main - INFO - Starting scrape process...
+2025-12-23 12:18:55,136 - Main - INFO - Processing (1/10): https://english.mathrubhumi.com/
+2025-12-23 12:18:55,136 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/
+2025-12-23 12:19:00,975 - scraper - INFO - Truncating content at 3 headers / 258 chars.
+2025-12-23 12:19:00,975 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/...
+2025-12-23 12:19:18,030 - Main - INFO - Summary generated.
+2025-12-23 12:19:18,047 - Main - INFO - Processing (2/10): https://english.mathrubhumi.com/news/india/will-income-tax-department-get-access-to-your-email-social-media-profiles-pib-issues-clarification-s4xvowl1
+2025-12-23 12:19:18,055 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/news/india/will-income-tax-department-get-access-to-your-email-social-media-profiles-pib-issues-clarification-s4xvowl1
+2025-12-23 12:19:21,868 - scraper - INFO - Truncating content at 3 headers / 2152 chars.
+2025-12-23 12:19:21,868 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/news/india/will-income-tax-department-get-access-to-your-email-social-media-profiles-pib-issues-clarification-s4xvowl1...
+2025-12-23 12:19:43,565 - Main - INFO - Summary generated.
+2025-12-23 12:19:43,569 - Main - INFO - Processing (3/10): https://english.mathrubhumi.com/education/news/ugc-net-dec-2025-city-intimation-slip-pkk9crxj
+2025-12-23 12:19:43,570 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/education/news/ugc-net-dec-2025-city-intimation-slip-pkk9crxj
+2025-12-23 12:19:50,153 - scraper - INFO - Truncating content at 3 headers / 1666 chars.
+2025-12-23 12:19:50,153 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/education/news/ugc-net-dec-2025-city-intimation-slip-pkk9crxj...
+2025-12-23 12:20:09,615 - Main - INFO - Summary generated.
+2025-12-23 12:20:09,621 - Main - INFO - Processing (4/10): https://english.mathrubhumi.com/topics/tag/bangladesh_crisis
+2025-12-23 12:20:09,621 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/bangladesh_crisis
+2025-12-23 12:20:14,892 - scraper - INFO - Truncating content at 3 headers / 198 chars.
+2025-12-23 12:20:14,892 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/bangladesh_crisis...
+2025-12-23 12:20:22,038 - Main - INFO - Summary generated.
+2025-12-23 12:20:22,039 - Main - INFO - Processing (5/10): https://english.mathrubhumi.com/sports/cricket/sanju-samson-t20-wc-2026-srikkanth-advice-qayishz5
+2025-12-23 12:20:22,039 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/sports/cricket/sanju-samson-t20-wc-2026-srikkanth-advice-qayishz5
+2025-12-23 12:20:24,652 - scraper - INFO - Truncating content at 3 headers / 2925 chars.
+2025-12-23 12:20:24,652 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/sports/cricket/sanju-samson-t20-wc-2026-srikkanth-advice-qayishz5...
+2025-12-23 12:21:02,311 - Main - INFO - Summary generated.
+2025-12-23 12:21:02,312 - Main - INFO - Processing (6/10): https://english.mathrubhumi.com/movies-music/news
+2025-12-23 12:21:02,312 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/movies-music/news
+2025-12-23 12:21:05,091 - scraper - INFO - Truncating content at 3 headers / 198 chars.
+2025-12-23 12:21:05,095 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/movies-music/news...
+2025-12-23 12:21:14,102 - Main - INFO - Summary generated.
+2025-12-23 12:21:14,104 - Main - INFO - Processing (7/10): https://english.mathrubhumi.com/amp/multimedia/quick-taps/top-10-food-cities-in-the-world-u8hc47dz
+2025-12-23 12:21:14,104 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/amp/multimedia/quick-taps/top-10-food-cities-in-the-world-u8hc47dz
+2025-12-23 12:21:17,687 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/amp/multimedia/quick-taps/top-10-food-cities-in-the-world-u8hc47dz...
+2025-12-23 12:21:33,284 - Main - INFO - Summary generated.
+2025-12-23 12:21:33,284 - Main - INFO - Processing (8/10): https://english.mathrubhumi.com/amp/multimedia/quick-taps/faces-of-independence-bollywood-stars-as-national-heroes-kw24snbh
+2025-12-23 12:21:33,284 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/amp/multimedia/quick-taps/faces-of-independence-bollywood-stars-as-national-heroes-kw24snbh
+2025-12-23 12:21:35,014 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/amp/multimedia/quick-taps/faces-of-independence-bollywood-stars-as-national-heroes-kw24snbh...
+2025-12-23 12:21:49,970 - Main - INFO - Summary generated.
+2025-12-23 12:21:49,970 - Main - INFO - Processing (9/10): https://english.mathrubhumi.com/movies-music/news/samantha-ruth-prabhu-hyderabad-event-chaos-chinmayi-tdb49bh6
+2025-12-23 12:21:49,970 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/movies-music/news/samantha-ruth-prabhu-hyderabad-event-chaos-chinmayi-tdb49bh6
+2025-12-23 12:21:55,223 - scraper - INFO - Truncating content at 3 headers / 2142 chars.
+2025-12-23 12:21:55,223 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/movies-music/news/samantha-ruth-prabhu-hyderabad-event-chaos-chinmayi-tdb49bh6...
+2025-12-23 12:22:20,196 - Main - INFO - Summary generated.
+2025-12-23 12:22:20,198 - Main - INFO - Processing (10/10): https://english.mathrubhumi.com/columns/chidambarams-take-when-history-is-bent-and-future-ignored-b5g9cx94
+2025-12-23 12:22:20,199 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/columns/chidambarams-take-when-history-is-bent-and-future-ignored-b5g9cx94
+2025-12-23 12:22:23,391 - scraper - INFO - Truncating content at 3 headers / 6132 chars.
+2025-12-23 12:22:23,391 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/columns/chidambarams-take-when-history-is-bent-and-future-ignored-b5g9cx94...
+2025-12-23 12:24:50,639 - Main - INFO - Summary generated.
+2025-12-23 12:24:56,026 - Main - INFO - Scraping complete. Visited 10 pages.
+2025-12-23 12:24:56,026 - Main - INFO - Results saved to summary_report.json
+2025-12-23 12:31:47,748 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 12:31:47,750 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 12:31:49,139 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 12:31:49,467 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 12:31:49,785 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 12:31:51,265 - Main - INFO - Starting scrape process...
+2025-12-23 12:31:51,265 - Main - INFO - Processing (1/10): https://english.mathrubhumi.com/
+2025-12-23 12:31:51,265 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/
+2025-12-23 12:31:59,997 - scraper - INFO - Truncating content at 3 headers / 258 chars.
+2025-12-23 12:32:00,004 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/...
+2025-12-23 12:32:17,540 - Main - INFO - Summary generated.
+2025-12-23 12:32:17,545 - Main - INFO - Processing (2/10): https://english.mathrubhumi.com/news/kerala/christmas-and-new-year-season-subsidised-commodities-discount-rates-in-kerala-wxuv7ns2
+2025-12-23 12:32:17,545 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/news/kerala/christmas-and-new-year-season-subsidised-commodities-discount-rates-in-kerala-wxuv7ns2
+2025-12-23 12:32:21,445 - scraper - INFO - Truncating content at 3 headers / 3314 chars.
+2025-12-23 12:32:21,445 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/news/kerala/christmas-and-new-year-season-subsidised-commodities-discount-rates-in-kerala-wxuv7ns2...
+2025-12-23 12:32:59,647 - Main - INFO - Summary generated.
+2025-12-23 12:32:59,649 - Main - INFO - Processing (3/10): https://english.mathrubhumi.com/topics/tag/weather
+2025-12-23 12:32:59,649 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/weather
+2025-12-23 12:33:05,928 - scraper - INFO - Truncating content at 3 headers / 148 chars.
+2025-12-23 12:33:05,928 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/weather...
+2025-12-23 12:33:11,827 - Main - INFO - Summary generated.
+2025-12-23 12:33:11,831 - Main - INFO - Processing (4/10): https://english.mathrubhumi.com/columns/bystander
+2025-12-23 12:33:11,832 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/columns/bystander
+2025-12-23 12:33:15,162 - scraper - INFO - Truncating content at 3 headers / 94 chars.
+2025-12-23 12:33:15,162 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/columns/bystander...
+2025-12-23 12:33:20,613 - Main - INFO - Summary generated.
+2025-12-23 12:33:20,618 - Main - INFO - Processing (5/10): https://english.mathrubhumi.com/topics/tag/indigo_airlines
+2025-12-23 12:33:20,619 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/indigo_airlines
+2025-12-23 12:33:25,429 - scraper - INFO - Truncating content at 3 headers / 171 chars.
+2025-12-23 12:33:25,429 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/indigo_airlines...
+2025-12-23 12:33:34,588 - Main - INFO - Summary generated.
+2025-12-23 12:33:34,596 - Main - INFO - Processing (6/10): https://english.mathrubhumi.com/topics/tag/actress_attack_case
+2025-12-23 12:33:34,597 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/actress_attack_case
+2025-12-23 12:33:39,637 - scraper - INFO - Truncating content at 3 headers / 209 chars.
+2025-12-23 12:33:39,639 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/actress_attack_case...
+2025-12-23 12:33:45,903 - Main - INFO - Summary generated.
+2025-12-23 12:33:45,904 - Main - INFO - Processing (7/10): https://english.mathrubhumi.com/education/news/kerala-pg-medical-2nd-allotment-2025-hht7lnqx
+2025-12-23 12:33:45,904 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/education/news/kerala-pg-medical-2nd-allotment-2025-hht7lnqx
+2025-12-23 12:33:49,190 - scraper - INFO - Truncating content at 3 headers / 5135 chars.
+2025-12-23 12:33:49,190 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/education/news/kerala-pg-medical-2nd-allotment-2025-hht7lnqx...
+2025-12-23 12:34:54,120 - Main - INFO - Summary generated.
+2025-12-23 12:34:54,128 - Main - INFO - Processing (8/10): https://english.mathrubhumi.com/education/news/upsc-epfo-and-cms-exam-results-out-everything-candidates-need-to-know-tms2nid1
+2025-12-23 12:34:54,128 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/education/news/upsc-epfo-and-cms-exam-results-out-everything-candidates-need-to-know-tms2nid1
+2025-12-23 12:34:59,980 - scraper - INFO - Truncating content at 3 headers / 2804 chars.
+2025-12-23 12:34:59,980 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/education/news/upsc-epfo-and-cms-exam-results-out-everything-candidates-need-to-know-tms2nid1...
+2025-12-23 12:35:32,038 - Main - INFO - Summary generated.
+2025-12-23 12:35:32,041 - Main - INFO - Processing (9/10): https://english.mathrubhumi.com/news/kerala/chhattisgarh-cm-announces-5-lakh-ex-gratia-to-family-of-ramnarayan-killed-in-walayar-mob-lynching-q846f5x3
+2025-12-23 12:35:32,041 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/news/kerala/chhattisgarh-cm-announces-5-lakh-ex-gratia-to-family-of-ramnarayan-killed-in-walayar-mob-lynching-q846f5x3
+2025-12-23 12:35:35,071 - scraper - INFO - Truncating content at 3 headers / 2729 chars.
+2025-12-23 12:35:35,071 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/news/kerala/chhattisgarh-cm-announces-5-lakh-ex-gratia-to-family-of-ramnarayan-killed-in-walayar-mob-lynching-q846f5x3...
+2025-12-23 12:36:11,305 - Main - INFO - Summary generated.
+2025-12-23 12:36:11,313 - Main - INFO - Processing (10/10): https://english.mathrubhumi.com/sports/cricket
+2025-12-23 12:36:11,313 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/sports/cricket
+2025-12-23 12:36:14,463 - scraper - INFO - Truncating content at 3 headers / 189 chars.
+2025-12-23 12:36:14,463 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/sports/cricket...
+2025-12-23 12:36:24,655 - Main - INFO - Summary generated.
+2025-12-23 12:36:28,002 - Main - INFO - Scraping complete. Visited 10 pages.
+2025-12-23 12:36:28,003 - Main - INFO - Results saved to summary_report.json
+2025-12-23 14:47:24,552 - ollama_client - INFO - Successfully connected to Ollama.
+2025-12-23 14:47:24,555 - WDM - INFO - ====== WebDriver manager ======
+2025-12-23 14:47:27,544 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 14:47:28,021 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-23 14:47:28,142 - WDM - INFO - Driver [C:\Users\fathi\.wdm\drivers\chromedriver\win64\143.0.7499.169\chromedriver-win32/chromedriver.exe] found in cache
+2025-12-23 14:47:30,292 - Main - INFO - Starting scrape process...
+2025-12-23 14:47:30,292 - Main - INFO - Processing (1/10): https://english.mathrubhumi.com/
+2025-12-23 14:47:30,292 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/
+2025-12-23 14:47:36,273 - scraper - INFO - Truncating content at 3 headers / 242 chars.
+2025-12-23 14:47:36,274 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/...
+2025-12-23 14:48:01,398 - Main - INFO - Summary generated.
+2025-12-23 14:48:01,409 - Main - INFO - Processing (2/10): https://english.mathrubhumi.com/topics/tag/government_job
+2025-12-23 14:48:01,409 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/government_job
+2025-12-23 14:48:09,669 - scraper - INFO - Truncating content at 3 headers / 173 chars.
+2025-12-23 14:48:09,669 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/government_job...
+2025-12-23 14:48:16,172 - Main - INFO - Summary generated.
+2025-12-23 14:48:16,174 - Main - INFO - Processing (3/10): https://english.mathrubhumi.com/multimedia
+2025-12-23 14:48:16,174 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/multimedia
+2025-12-23 14:48:19,024 - scraper - INFO - Truncating content at 3 headers / 129 chars.
+2025-12-23 14:48:19,024 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/multimedia...
+2025-12-23 14:48:26,494 - Main - INFO - Summary generated.
+2025-12-23 14:48:26,497 - Main - INFO - Processing (4/10): https://english.mathrubhumi.com/topics/tag/delhi_high_court
+2025-12-23 14:48:26,498 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/topics/tag/delhi_high_court
+2025-12-23 14:48:31,491 - scraper - INFO - Truncating content at 3 headers / 184 chars.
+2025-12-23 14:48:31,491 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/topics/tag/delhi_high_court...
+2025-12-23 14:48:38,102 - Main - INFO - Summary generated.
+2025-12-23 14:48:38,103 - Main - INFO - Processing (5/10): https://english.mathrubhumi.com/education/news/mcc-pg-medical-resignation-deadline-extended-ojkr7urj
+2025-12-23 14:48:38,104 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/education/news/mcc-pg-medical-resignation-deadline-extended-ojkr7urj
+2025-12-23 14:48:47,745 - scraper - INFO - Truncating content at 3 headers / 1877 chars.
+2025-12-23 14:48:47,745 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/education/news/mcc-pg-medical-resignation-deadline-extended-ojkr7urj...
+2025-12-23 14:49:21,151 - Main - INFO - Summary generated.
+2025-12-23 14:49:21,154 - Main - INFO - Processing (6/10): https://english.mathrubhumi.com/technology/openai-your-year-with-chatgpt-recap-feature-supported-countries-iabbhzc5
+2025-12-23 14:49:21,154 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/technology/openai-your-year-with-chatgpt-recap-feature-supported-countries-iabbhzc5
+2025-12-23 14:49:25,800 - scraper - INFO - Truncating content at 3 headers / 2730 chars.
+2025-12-23 14:49:25,800 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/technology/openai-your-year-with-chatgpt-recap-feature-supported-countries-iabbhzc5...
+2025-12-23 14:50:07,121 - Main - INFO - Summary generated.
+2025-12-23 14:50:07,121 - Main - INFO - Processing (7/10): https://english.mathrubhumi.com/movies-music/news
+2025-12-23 14:50:07,121 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/movies-music/news
+2025-12-23 14:50:10,502 - scraper - INFO - Truncating content at 3 headers / 185 chars.
+2025-12-23 14:50:10,504 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/movies-music/news...
+2025-12-23 14:50:18,084 - Main - INFO - Summary generated.
+2025-12-23 14:50:18,084 - Main - INFO - Processing (8/10): https://english.mathrubhumi.com/features
+2025-12-23 14:50:18,084 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/features
+2025-12-23 14:50:20,514 - scraper - INFO - Truncating content at 3 headers / 164 chars.
+2025-12-23 14:50:20,514 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/features...
+2025-12-23 14:50:28,867 - Main - INFO - Summary generated.
+2025-12-23 14:50:28,869 - Main - INFO - Processing (9/10): https://english.mathrubhumi.com/columns/chidambarams-take-when-history-is-bent-and-future-ignored-b5g9cx94
+2025-12-23 14:50:28,869 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/columns/chidambarams-take-when-history-is-bent-and-future-ignored-b5g9cx94
+2025-12-23 14:50:32,231 - scraper - INFO - Truncating content at 3 headers / 6132 chars.
+2025-12-23 14:50:32,231 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/columns/chidambarams-take-when-history-is-bent-and-future-ignored-b5g9cx94...
+2025-12-23 14:52:11,568 - Main - INFO - Summary generated.
+2025-12-23 14:52:11,574 - Main - INFO - Processing (10/10): https://english.mathrubhumi.com/sports/cricket
+2025-12-23 14:52:11,574 - scraper - INFO - Navigating to: https://english.mathrubhumi.com/sports/cricket
+2025-12-23 14:52:14,624 - scraper - INFO - Truncating content at 3 headers / 190 chars.
+2025-12-23 14:52:14,624 - Main - INFO - Summarizing content for https://english.mathrubhumi.com/sports/cricket...
+2025-12-23 14:52:24,659 - Main - INFO - Summary generated.
+2025-12-23 14:52:28,098 - Main - INFO - Scraping complete. Visited 10 pages.
+2025-12-23 14:52:28,104 - Main - INFO - Results saved to summary_report.json
