@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Selenium Ollama Scraper
 
 A recursive web scraper that navigates a website, extracts text content, and uses a local Ollama LLM to summarize each page.
@@ -69,3 +70,13 @@ The script creates `summary_report.json` in the current directory:
 
 - **Ollama Connection Error**: Ensure `ollama serve` is running and accessible at `http://localhost:11434`.
 - **WebDriver Error**: The script uses `webdriver-manager` to automatically handle drivers. If it fails, ensure your Chrome/Edge browser is up to date.
+=======
+# Selenium_Ollama_Testing_Internship
+This internship project focuses on exploratory software testing using Selenium and a local language model The system automates web interaction captures UI state and uses LLM reasoning to assist testing decisions The goal is to study AI assisted exploratory testing rather than fixed test cases.
+
+🔍 AI-Assisted Exploratory Testing using Selenium & Local LLM
+📌 Project Overview
+
+This project focuses on building an AI-assisted exploratory testing framework using Selenium WebDriver integrated with a local Large Language Model (LLM).
+Traditional automation testing relies on predefined test cases, which limits its ability to discover unexpected behaviors. This project aims to go beyond scripted testing by introducing LLM-driven exploratory reasoning, enabling the system to observe application behavior, analyze UI states, and suggest intelligent test actions dynamically.
+>>>>>>> 6e5800c4ce4047c6483d81ff33434ddd8bdba68b
