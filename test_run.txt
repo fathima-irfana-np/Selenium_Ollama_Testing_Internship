@@ -1,0 +1,9 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.0.2, pluggy-1.6.0 -- C:\Python314\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\fathi\.gemini\antigravity\scratch\selenium_ollama_scraper
+collecting ... ERROR: file or directory not found: "
+
+collected 0 items
+
+============================ no tests ran in 0.00s ============================
